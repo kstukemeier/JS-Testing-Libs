@@ -1,0 +1,24 @@
+{
+  "environments": "chrome",
+  "capabilities": {},
+  "leaveRemoteOpen": false,
+  "filterErrorStack": true,
+  "connectTimeout": 3000,
+  "instrumenterOptions": {
+    "esModules": true
+  },
+  "functionalSuites": [
+    "src/test/js/**/*.js"
+  ],
+  "tunnel": "selenium",
+  "tunnelOptions": {
+    "hostname": "localhost",
+    "port": 4444,
+    "drivers": [
+      {
+        "name": "chrome",
+        "version": "2.36"
+      }
+    ]
+  }
+}
