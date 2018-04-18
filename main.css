@@ -1,51 +1,38 @@
-
-.title{
+.title {
     font-size: 50px;
-    margin-left: 100px;
+    margin-left: 25%;
     color: #10474c;
     font-family: Helvetica;
     font-weight:100;
 }
 
-.text{
+.text {
     font-size: 30px;
     margin-left: 40px;
     color: #1B1C1D;
     font-family: Helvetica;
     font-weight: 100;
-    margin-left: 110px;
+    margin-left: 30%;
 }
 
-.masking{
+.masking {
     display: none;
 }
 
-.zentrieren{
+.zentrieren {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 30%;
 }
 
-body{
+body {
     background-image: url(paper.jpg);
 }
 
-#cross-coat{
-  float: right;
-  margin-right: 70px;
+.cross-coat {
+
+  margin-left: 80%;
 }
 
-#column{
-    background-color: #3b9b74;
-    width: 1300px;
-    height: 30px;
-    top:0px;
-    left:500px;
-    font-family: Helvetica;
-    font-weight: 100;
-    font-size: 26px;
-}
-
-a:link{
+a:link {
     text-decoration: none;
 }

@@ -1,79 +1,83 @@
-index.<!DOCTYPE html>
+<!DOCTYPE html>
+
 <html>
 
     <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
       <title>Zusammenfassung</title>
+
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
       <link rel="stylesheet" href="/main.css">
       <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
       <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
       <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+
       <script type="text/javascript" src="expander.js"></script>
       <link rel="stylesheet" type="text/css" href="main.css">
     </head>
 
     <body >
-      
-          <h1 class="title">
-                Pers&ouml;nliche Presentation
-          </h1>
-          <img id="cross-coat" src="cross-coat.jpg" alt="Selfhtml" width="200" height="200"/>
-          <p class="text">
 
+      <h1 class="title">
+        Pers&ouml;nliche Presentation
+      </h1>
 
-                Name:       Stukemeier Kai<br/>
-          </p>
+      <img class="cross-coat" src="cross-coat.jpg" alt="Selfhtml" width="200" height="200"/>
 
-          <h1 class="title"><br/> <br/> <br/>Inhaltsverzeichnis<h1/>
+      <p class="text">
+        Name:
+      </p>
 
-          <p class="text section" >
-                   &Uumlber mich
-                   <p class="masking text" >
-                       sdgdsgdgfsdgfsdgsdfgsdfgsd
-                 </p>
-          </p>
+      <h1 class="title"><br/> <br/> <br/>Inhaltsverzeichnis<h1/>
 
-          <p class="text section">
-                   Bildungsweg
-                  <p class="text masking" >
-                        sdfgsdgfsdfgsfgdsfgdsdsddgsfgdfrdfgs
-                  </p>
-          </p>
+      <p class="text section" >
+         &Uumlber mich
+         <p class="masking text" >
+            sdgds gdgfsdg fsdgsdfg sdfgsd
+         </p>
+      </p>
 
-
-          <p class="text section">
-                   Projekte
-                  <p class="masking text ">
-                          sdfgsdfgsdfgsdfgsdgfsdfgdgf
-                  </p>
-          </p>
-
-          <p class="text section" >
-                   Quellen
-                  <p class="masking text">
-                          Um die Bilder zu bekommen die ich hier verwendet habe, habe ich die folgende Webseite genutzt:
-                        </br><a href="https://pixabay.com/de/">pixabay</a>
-                        </br></br>Hier habe ich die Fotos direkt verlinkt:
-                        </br><a href="https://pixabay.com/de/kloster-kreuzgang-abtei-gang-3130879/">Titelbild</a>
-                        </br><a href="https://pixabay.com/de/papier-gästebuch-textur-dekorativ-1914901/">Hintergrundbild</a>
-                  </p>
+      <p class="text section">
+         Bildungsweg
+        <p class="text masking" >
+           sdfgsdgf sdfgsfgdsfgds dsddgsfgdfrdfgs
         </p>
+      </p>
 
-        <h1 class="title">
+
+      <p class="text section">
+         Projekte
+        <p class="masking text ">
+            sdfgsd fgsdf gsdf gsdgf dfgdgf
+        </p>
+      </p>
+
+      <p class="text section" >
+         Quellen
+        <p class="masking text">
+            Um die Bilder zu bekommen die ich hier verwendet habe, habe ich die folgende Webseite genutzt:
+          </br><a href="https://pixabay.com/de/">pixabay</a>
+          </br></br>Hier habe ich die Fotos direkt verlinkt:
+          </br><a href="https://pixabay.com/de/kloster-kreuzgang-abtei-gang-3130879/">Titelbild</a>
+          </br><a href="https://pixabay.com/de/papier-gästebuch-textur-dekorativ-1914901/">Hintergrundbild</a>
+        </p>
+      </p>
+
+      <h1 class="title">
           <br/>
           <br/>
           Kontakt
-        </h1>
+      </h1>
 
 
-          <input type="text" maxlength="22" name="Name" id="name"class=" text zentrieren" placeholder="Name" required><br/><br/>
+      <input type="text" maxlength="22" name="Name" id="name"class=" text zentrieren" placeholder="Name" required><br/><br/>
 
-          <input  id="email" class="text zentrieren" placeholder="E-Mail"/><div id="not-accepted" class="text"></div><br/><br/>
+      <input  id="email" class="text zentrieren " placeholder="E-Mail"/><div id="not-accepted" class="text"></div><br/><br/>
 
-          <textarea maxlength="255" clos="40" rows="4" id="message"class="text message zentrieren" placeholder="Nachricht"></textarea><br/>
-          <div id="char_count" class="text zentrieren"></div>
-          <button type="button" id="senden" name="button" class="zentrieren text">Senden</button>
+      <textarea maxlength="255" clos="40" rows="4" id="message"class="text message zentrieren" placeholder="Nachricht"></textarea><br/>
+      <div id="char_count" class="text zentrieren"></div>
+      <button type="button" id="senden" name="button" class="zentrieren btn btn-lg btn-primary">Senden</button>
 
 
   </body>
