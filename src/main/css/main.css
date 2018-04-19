@@ -2,17 +2,21 @@
     font-size: 50px;
     margin-left: 25%;
     color: #10474c;
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
     font-weight:100;
 }
 
 .text {
     font-size: 30px;
-    margin-left: 40px;
     color: #1B1C1D;
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
     font-weight: 100;
     margin-left: 30%;
+}
+
+.cross-coat {
+    width: 20%;
+    height: 20%;
 }
 
 .masking {
@@ -25,7 +29,7 @@
 }
 
 body {
-    background-image: url(paper.jpg);
+    background-image: url(../img/paper.jpg);
 }
 
 .cross-coat {

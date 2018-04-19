@@ -1,42 +1,30 @@
-$(function() { //diese Methode umfasst alle p's und kann so auf jedes p angewendet werden
-  $('.section').each(function() {
-      var $section = $(this);
+$(function() {
 
-      $section.click(function() {
-        var $clickTarget = $(this);
-        var $toggleText = $clickTarget.next('.masking');
-
-        $toggleText.slideToggle();
-      })
-  })
-})
-
-$(function(){//die methode ist dafür die größe des
+  //die methode ist dafür die größe des
   $('.message').keyup(function(){
     var max = $(this).attr("maxlength");
     var length = $(this).val().length;
+    var $messageField = $(this);
 
     if (length === max) {
-      length.val()=length.val().substr(0,500);
+      $messageField.val($messageField.val().substr(0,500));
     } else {
-        var char = max - length;
-        $('#char_count').text('Uebrige Zeichen: ' + char);
+      var char = max - length;
+      $('#char_count').text('Uebrige Zeichen: ' + char);
     }
   })
-})
 
-$(function(){
+
   $('.name').keyup(function(){
     var max = $(this).attr("maxlength");
     var length = $(this).val().length;
+    var $messageField = $(this);
 
     if (length === max) {
-      length.val()=length.val().substr(0,40);
+      $messageField.val($messageField.val().substr(0,40));
     }
   })
-})
 
-$(function(){
   var senden =$('#senden');
   var email = $('#email');
   senden.click(function(){
@@ -50,4 +38,5 @@ $(function(){
       $('#not-accepted').text("falsch");
     }
   })
+
 })
